@@ -1,2 +1,32 @@
 
+#playground{
+    width: 600px;
+    height: 600px;
+    background-color: black;
+    border: 5px solid black;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button{
+    margin: 0 auto;
+    display: block;
+}
+
+.square{
+    border: 3px solid white;
+    /* width:calc(100% / 8);
+    height:calc(100% / 8) ; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active{
+    background-color: blueviolet;
+    color: black;
+}
+
 
